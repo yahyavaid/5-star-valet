@@ -1,0 +1,23 @@
+# macOS metadata
+.DS_Store
+._*
+__MACOSX/
+
+# Local editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local credentials and hosting metadata
+.env
+.env.*
+!.env.example
+.netlify/
+.openai/
+
+# Local caches and logs
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
